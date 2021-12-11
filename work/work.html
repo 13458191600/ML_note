@@ -17,14 +17,15 @@
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <link href="https://cdn.jsdelivr.net/npm/@bootcss/v3.bootcss.com@1.0.20/assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
+    
     <link href="https://cdn.jsdelivr.net/npm/@bootcss/v3.bootcss.com@1.0.20/examples/navbar/navbar.css" rel="stylesheet">
-  </head>
+    <link href="css/work.css" rel="stylesheet">
+</head>
 
 <!-- The body contains the content of the website. -->
 
 <body>
-  <div class="container">
+  
       <nav role="navigation" class="navbar navbar-inverse navbar-fixed-top">
         <div class="container-fluid">
           <div class="navbar-header">
@@ -32,17 +33,17 @@
           </div>
           <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
-              <li role="presentation"><a href="index.html">Home</a></li>
-              <li role="presentation"><a href="profile/profile.html">Profile</a></li>
-              <li role="presentation"><a href="work/work.html">work</a></li>
+              <li role="presentation"><a href="../index.html">Home</a></li>
+              <li role="presentation"><a href="../profile/profile.html">Profile</a></li>
+              <li role="presentation"><a href="work.html">work</a></li>
               <li role="presentation" class="dropdown">
                 <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
                   learning<span class="caret"></span>
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a href="/learning/math/docs/index.html">math</a></li>
-                  <li><a href="/learning/physics/physics.html">physics</a></li>
-                  <li><a href="/learning/data_science/ds.html">data science</a></li>
+                  <li><a href="#">math</a></li>
+                  <li><a href="#">physics</a></li>
+                  <li><a href="#">data science</a></li>
                   <li role="separator" class="divider"></li>
                   <li><a href="#">more...</a></li>
                 </ul>
@@ -51,62 +52,28 @@
             <form class="navbar-form navbar-right">
               <input type="text" class="form-control" placeholder="Search...">
             </form>
-
+            
           </div>
       </nav>
-    <div class="container-fluid">
-      <div class="header">
-        <h1>Welcome to alva bool's room
-        </h1>
-      </div>
-      <div class="instruction">
-        <p>you can click the navigator to find what you want</p>
-        <ul>
-          <!-- <li>
-            健身运动
-          </li>
-          <li>
-            书画手工
-          </li>
-          <li>
-            视听享受
-          </li>
-          <li>
-            逻辑思考
-          </li>
-          <li>
-            。。。。。。
-          </li> -->
-        </ul>
-      </div>
-    </div>
-  
-    <footer class="footer">
-      <div class="container" id="Contact">
-      <div class="icons">
-  
-          <!-- a href indicates a link (here, to your email address). -->
-          <a href="mailto:3200105411@zju.edu.cn">
-            <!-- This is the icon for email. Since it's surrounded by the 'a' tag, it links to your email address! -->
-            <img class="fa fa-envelope" title="Email" src="imgs/icons/Email.png">
-          </a>
-  
-          <a href="https://github.com/X-manist">
-            <img class="fa fa-github" title="Github" src="imgs/icons/github-fill.png">
-          </a>
-  
-          <a href="">
-            <img class="fa fa-linkedin" title="LinkedIn" src="imgs/icons/linkedin.png">
-          </a>
-  
-        </div>
-        <div class="sayings">
-          <P>尽量宽恕别人,而决不要原谅自己</P>
+      <div class="block"></div>
+      <div class="container">
+        <div class="row row-offcanvas row-offcanvas-right">
+          <div class="col-sm-3 col-md-2 sidebar">
+            <ul class="nav nav-sidebar">
+              <li class="active"><a href="#overview">Overview <span class="sr-only">(current)</span></a></li>
+              <li><a href="#datas">datas</a></li>
+              <li><a href="#papers">papers</a></li>
+              <li><a href="#idea">idea</a></li>
+            </ul>
+          </div>
+          <div class="col-md-offset-2 main">
+            <h1 class="page-header" id="overview">Dashboard</h1>
+            <h1 class="page-header" id="datas">Dashboard</h1>
+            <h1 class="page-header" id="papers">Dashboard</h1>
+            <h1 class="page-header" id="idea">Dashboard</h1>
+          </div>
         </div>
       </div>
-    </footer>
-  </div>
-  
   <script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
   <script>window.jQuery || document.write('<script src="https://cdn.jsdelivr.net/npm/@bootcss/v3.bootcss.com@1.0.20/assets/js/vendor/jquery.min.js"><\/script>')</script>
     <script src="https://cdn.jsdelivr.net/npm/@bootcss/v3.bootcss.com@1.0.20/dist/js/bootstrap.min.js"></script>
